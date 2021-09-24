@@ -1,0 +1,50 @@
+.blogpost{
+    background-color: rgba(0, 255, 255, 0.493);
+    font-size: 80px;
+    color: aquamarine;
+    align-content: center;
+}
+.date{
+    background-color:black;
+    font-family: sans-serif;
+    margin-left: 600px;
+}
+body{
+    background-color:black;
+}
+p{
+    font-size: 30px;
+    font-family: Verdana;
+    color: aqua;
+}
+.other-post{
+    background-color: rgba(0, 255, 255, 0.493);
+    font-size: 80px;
+    color: aquamarine;
+}
+img{
+    width: 800px !important;
+    height: 500px !important;
+    margin-top:10px;
+    margin-left: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-content: center;
+}
+#nature{
+    width: 1200px !important;
+    height: 700px !important;
+    margin-top:10px;
+    margin-left: 30px;
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.container{
+    padding: 30px;
+}
