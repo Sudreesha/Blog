@@ -1,0 +1,207 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/starter-template/">
+
+    <title>Alpha-Contact</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+   
+  </head>
+
+  <body style="background-color: black;">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" style="color: blue;" href="index.html">Alpha</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <section id="title bar" style="height: 80px; background-color:blue; margin-top:50px">
+     <div class="container">
+         <div class="row">
+             <div class="col-md-12">
+                 <h1 style="color: white; margin-top:20px; font-weight:bold">Contact us</h1>
+             </div>
+         </div>
+     </div>
+    </section>
+    
+    <section id="contact">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12" >
+            <form style="margin-top:50px;">
+                <div class="mb-3" style="color: white;"> 
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3"style="color: white; margin-top:30px" >
+                  <label for="exampleInputText1" class="form-label">Enter your issue,we will try our best to solve it soon.</label>
+                  <input type="text" class="form-control" id="exampleInputText1" style="width:100%; height:120px" minlength="5" maxlength="200">
+                </div>
+                <div class="mb-3 form-check" style="color: white;margin-top:30px">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I confirm to forward this issue.</label>
+                </div>
+                <button type="submit" class="btn btn-primary" style="color:white; background-color:blue; color:white; font-weight:bold">Submit</button>
+              </form>
+         </div>
+         
+       </div>
+     </div>
+    </section>
+    <h1 style="color: white; font-weight:bold"><center>Our Team</center></h1>
+    <section id="team" style="margin-top: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="padding:6px; border:solid blue">
+                    <div class="card1" >
+                        <div class="card-header">
+                          <img class="container" style="width:100%; height:300px;" src="img/1.jpg">
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title" style="color: rgb(60, 177, 216);"> Sara Fleming</h2>
+                          <a href="#" class="btn btn-primary" style="color:white; background-color:blue; color:white; font-weight:bold">Contact</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4" style="padding:6px; border:solid blue; margin-left:10px">
+                    <div class="card2">
+                        <div class="card-header">
+                          <img class="container" style="width:100%; height:300px;" src="img/2.jpg">
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title" style="color: rgb(60, 177, 216);">Clair Parker</h2>
+                          <a href="#" class="btn btn-primary" style="color:white; background-color:blue; color:white; font-weight:bold">Contact</a>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-md-4" style="padding:4px; border:solid blue; margin-top:1px; width:30%; margin-left:10px; height:412px">
+                    <div class="card3">
+                        <div class="card-header">
+                          <img class="container" style="width:100%; height:300px;" src="img/3.jpg">
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title" style="color: rgb(60, 177, 216);">Trevor Holmes</h2>
+                          <a href="#" class="btn btn-primary" style="color:white; background-color:blue; color:white; font-weight:bold">Contact</a>
+                        </div>
+                      </div>
+                      <style>
+                        @media(max-width:768px){
+                          .col-md-4{
+                            margin-top: 20px !important;
+                            width:80% !important;
+                            margin-left: 70px !important;
+                          }
+                        }
+                        @media(max-width:500px){
+                          .col-md-4{
+                            width:90% !important;
+                            margin-left: 20px !important;
+                          }
+                        }
+                      </style>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" style="margin-top: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="padding:6px; border:solid blue">
+                    <div class="card" >
+                        <div class="card-header">
+                          <img class="container" style="width:100%; height:300px;" src="img/4.jpg">
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title" style="color: rgb(60, 177, 216);">Ashley Thomas</h2>
+                          <a href="#" class="btn btn-primary" style="color:white; background-color:blue; color:white; font-weight:bold">Contact</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4" style="padding:6px; border:solid blue; margin-left:10px">
+                    <div class="card">
+                        <div class="card-header">
+                          <img class="container" style="width:100%; height:300px;" src="img/5.jpg">
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title" style="color: rgb(60, 177, 216);">Nina Atkins</h2>
+                          <a href="#" class="btn btn-primary" style="color:white; background-color:blue; color:white; font-weight:bold">Contact</a>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-md-4" style="padding:4px; border:solid blue; margin-top:1px; width:30%; margin-left:10px; height:412px">
+                    <div class="card">
+                        <div class="card-header">
+                          <img class="container" style="width:100%; height:300px;" src="img/6.jpg">
+                        </div>
+                        <div class="card-body">
+                          <h2 class="card-title" style="color: rgb(60, 177, 216);">Niel Forbes</h2>
+                          <a href="#" class="btn btn-primary" style="color:white; background-color:blue; color:white; font-weight:bold">Contact</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+   
+    <footer style="background-color: black; color:rgb(60, 177, 216); padding:30px 0 20px 0;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+           <ul>
+            <li style="float: left; padding:0 10px 0 10px; list-style:none"><a href="#" style="color: rgb(60, 177, 216);">Home</a></li>
+            <li style="float: left; padding:0 10px 0 10px; list-style:none"><a href="#" style="color: rgb(60, 177, 216);">About</a></li>
+            <li style="float: left; padding:0 10px 0 10px; list-style:none"><a href="#" style="color:rgb(60, 177, 216);">Contact</a></li>
+            <li style="float: left; padding:0 10px 0 10px; list-style:none"><a href="#" style="color: rgb(60, 177, 216)">Privacy Policy</a></li>            
+           </ul>
+          </div>
+          <div class="col-md-6">
+            <p style="float: right;">Copyright &copy; 2020, All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    
+
+
+   
+  </body>
+</html>
